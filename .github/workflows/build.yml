@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop  # De pipeline wordt geactiveerd bij een push naar de 'develop'-branch.
+      - main
   pull_request:
     types: [opened, synchronize, reopened] 
   workflow_dispatch:  # Manuele trigger voor de workflow.
